@@ -2,7 +2,7 @@ var $Form = $('form'), $Container = $('#container');
 $Container.hide();
 $Form.on('submit', function(oEvent){
     var Url, Movie, Data;
-    var apiKey = "(1aa25ebe)";
+    var apiKey = "1aa25ebe";
     oEvent.preventDefault();
 Movie = $Form.find('input').val();
     Url = 'https://www.omdbapi.com/?t=' + Movie + "&r=json&apikey=" + apiKey;
