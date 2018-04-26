@@ -1,0 +1,29 @@
+body {
+	background-image: url(../img/deadpool.jpg);
+	height:auto;
+  width: auto;
+  margin: 0;
+  padding: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+	display: flex;
+  justify-content: center;
+	color:#8b2323;
+
+}
+
+.btn {
+	background-color: black;
+	color: white;
+	width: 80px;
+	height: 40px;
+}
+
+.btn:hover {
+	background-color: #8b2323;
+
+}
